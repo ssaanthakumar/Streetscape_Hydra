@@ -2,7 +2,7 @@ s0.initScreen()
 
 src(s0)
 	.layer(src(s0)
-		    .modulate(noise(1),()=>a.fft[1])
+		.modulate(noise(1),()=>a.fft[1])
         	.mult(osc(10, -0.1, 10))
         	.scrollX(1, 0.1)
      		.pixelate(200)
