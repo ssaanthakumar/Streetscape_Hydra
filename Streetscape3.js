@@ -13,5 +13,3 @@ src(s0)
 	.blend(o0, 0.9)
 	.modulate(o0, Math.sin(time))
 	.out()
-
-    
